@@ -59,7 +59,7 @@
 .title {
     display: flex;
     position: static;
-    margin-top: 300px;
+    margin-top: 430px;
     color: #1b0c02;
     font-size: 40px;
     text-align: center;
@@ -106,7 +106,7 @@
     margin-top: 0px;
 }
 .sect {
-    margin-top: 600px;
+    margin-top: 670px;
     background-color: burlywood;
     padding: 0;
     position: static;
