@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Lobster&family=Rubik+Wet+Paint&display=swap');
+
+
+*,
+*:after,
+*:before {    
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+  margin-top: 20px;
+}
+
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.banner {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+.banner h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    height: 60%;
+    background: #fff;
+    font-size: 22vw;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: normal;
+    mix-blend-mode: screen;
+
+}
+
+.title {
+    display: flex;
+    position: static;
+    margin-top: 300px;
+    color: #1b0c02;
+    font-size: 40px;
+    text-align: center;
+}
+.header-content-description {
+    
+    font-size: 20px;
+    text-align: center;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+
+  
+.navigation {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.navigation .nav-item {
+    margin-right: 20px;
+    font-size: 15px;
+    line-height: 21px;
+    
+}
+.nav-link {
+    color: #1b0c02;
+}
+  
+.navigation .nav-item:last-child {
+    margin-right: 0px;
+}
+  
+
+
+
+.section {
+    margin-top: 0px;
+}
+.sect {
+    margin-top: 580px;
+    background-color: burlywood;
+    padding: 0;
+    position: static;
+    width: 100%;
+}
+.section-title {
+    
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+}
+ 
+.video {
+    padding-top: 43px;
+    background-color: burlywood;
+   
+}
+.brd {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.video-card {
+    padding: 10px 10px;
+    background: #1a0a01;
+    border: 1px solid #ededed;
+    box-shadow: 0px 4px 4px rgba(131, 131, 131, 0.25);
+    border-radius: 5px;
+    flex-basis: 1%;
+    min-height: 250px;
+    max-width: 150px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.car {
+  background-color: burlywood;
+}
+
+ 
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contain {
+    padding-top: 20px;
+    background-color: burlywood;
+    margin-top: 0;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.contain .card {
+    position: relative;
+    max-width: 300px;
+    height: 320px;
+    background: #1a0a01;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+}
+
+.contain .card:hover {
+    height: 320px;
+}
+
+.contain .card .imgBx {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+
+}
+
+.contain .card .imgBx img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.contain .card .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    font-family: "Lobster", sans-serif;
+
+}
+
+.contain .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+    font-family: "Lobster", sans-serif;
+
+}
+
+.tele {
+    
+    background-color: burlywood;
+}
+.telega {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 0px;
+   
+}
+
+
+@media (max-width: 1180px) {
+    .container {
+      width: 100%;
+    }
+    .banner h2 {
+      text-align: center; 
+    }
+  
+    .title {
+      font-size: 40px;
+    }
+  
+    
+  
+    .card {
+      flex-basis: 48%;
+    }
+  
+    .video-card {
+      flex-basis: 20%;
+      margin-left: 50px;
+    }
+  }
+  
+  @media (max-width: 960px) {
+    .container {
+      width: 100%;
+    }
+  
+    
+    .title {
+        font-size: 40px;
+    }
+    
+  }
+  
+  @media (max-width: 680px) {
+    .container {
+      width: 100%;
+    }
+  
+    .section-title {
+      text-align: center;
+    }
+
+    .video-card {
+      padding: 5px 5px;
+    }
+
+    .header-top {
+      flex-direction: column;
+    }
+  
+    .navigation {
+      margin: 10px 0;
+    }
+  
+    .navigation .nav-item {
+      font-size: 12px;
+    }
+  
+    .header-content {
+      flex-direction: column;
+    }
+  
+    .header-content-text {
+      text-align: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .header-content-image {
+      margin-top: 50px;
+      width: 300px;
+    }
+  
+    .cards {
+      justify-content: center;
+    }
+  
+    .card {
+      flex-basis: 80%;
+    }
+  
+    .card-text {
+      flex-direction: column;
+    }
+    .card-title {
+      text-align: center;
+    }
+  
+    .feedback-card {
+      flex-basis: 100%;
+    }
+  
+    .video-card {
+      flex-basis: 100%;
+    }
+  
+   
+  }
